@@ -19,7 +19,7 @@ def _logger():
     '''
     Setup logger format, level, and handler.
 
-    RETURNS: log object
+    RETURNS: log objec
     '''
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
